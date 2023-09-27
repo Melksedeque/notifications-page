@@ -1,0 +1,60 @@
+header.notification-header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    h1 {
+        align-items: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        font: bold 20px $font;
+        margin: 0;
+        .unread-qnt {
+            background: $blue;
+            border-radius: 5px;
+            color: $white;
+            font-size: 12px;
+            margin-left: 10px;
+            padding: 3px 9px;
+        }
+    }
+    button.btn-link {
+        box-shadow: none;
+        color: $dark_grayish_blue;
+        font-size: 13px;
+        padding: .375rem 0 .375rem .75rem;
+        &:hover {
+            color: $blue;
+        }
+    }
+}
+
+ul.notifications-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li.notification {
+        background-color: $blue;
+        border-radius: 5px;
+        align-items: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin: 5px 0;
+        padding: 10px 20px;
+        .user-avatar, .post-img{
+            flex: 0 1 auto;
+            height: auto;
+            margin: 0;
+            max-width: 60px;
+        }
+        .notification-message {
+            flex: 0 1 90%;
+        }
+        .time-post {
+            color: $grayish_blue;
+            flex: 1 1 100%;
+        }
+    }
+}
