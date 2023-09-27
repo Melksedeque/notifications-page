@@ -1,111 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Notifications page</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <header class="notification-header">
-      <h1>Notifications <span class="unread-qnt">#</span></h1>
-      <button class="btn btn-link">Mark all as read</button>
-    </header>
-    <ul class="notifications-list">
-      <li class="notification unread">
-        <figure>
-          <img src="" alt="nome">
-        </figure>
-        <p><strong class="name">Mark Webber</strong> reacted to your post <strong class="title post-title">My first tournament today!</strong> <span class="new-post-mark"></span></p>
-        <span class="time-post">1m ago</span>
-      </li>
-      <li class="notification unread">
-        <figure>
-          <img src="" alt="nome">
-        </figure>
-        <p><strong class="name">Angela Gray</strong> followed you <span class="new-post-mark"></span></p>
-        <span class="time-post">5m ago</span>
-      </li>
-      <li class="notification unread">
-        <figure>
-          <img src="" alt="nome">
-        </figure>
-        <p><strong class="name">Jacob Thompson</strong> has joined your group <strong class="title group-title">Chess Club</strong> <span class="new-post-mark"></span></p>
-        <span class="time-post">1 day ago</span>
-      </li>
-      <li class="notification">
-        <figure>
-          <img src="" alt="nome">
-        </figure>
-        <p><strong class="name">Rizky Hasanuddin</strong> sent you a private message</p>
-        <span class="time-post">5 days ago</span>
-        <div class="message">
-          Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.
-        </div>
-      </li>
-      <li class="notification">
-        <figure>
-          <img src="" alt="nome">
-        </figure>
-        <p><strong class="name">Kimberly Smith</strong> commented on your picture <figure class="post-img"><img src="" alt=""></figure></p>
-        <span class="time-post">1 week ago</span>
-      </li>
-      <li class="notification">
-        <figure>
-          <img src="" alt="nome">
-        </figure>
-        <p><strong class="name">Nathan Peterson</strong> reacted to your recent post <strong class="title post-title">5 end-game strategies to increase your win rate</strong> <span class="new-post-mark"></span></p>
-        <span class="time-post">2 weeks ago</span>
-      </li>
-      <li class="notification">
-        <figure>
-          <img src="" alt="nome">
-        </figure>
-        <p><strong class="name">Anna Kim</strong> left the group <strong class="title group-title">Chess Club</strong></p>
-        <span class="time-post">2 weeks ago</span>
-      </li>
-    </ul>
-  </div>
+    <title>Frontend Mentor | Notifications page</title>
 
-  Notifications 3
+    <link rel="stylesheet" href="./assets/css/style.min.css">
 
-  Mark all as read
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="notification-header">
+        <h1>Notifications <span class="unread-qnt">#</span></h1>
+        <button class="btn btn-link">Mark all as read</button>
+      </header>
+      <ul class="notifications-list">
+        <li class="notification unread">
+          <figure>
+            <img src="" alt="nome" />
+          </figure>
+          <p>
+            <strong class="name">Mark Webber</strong> reacted to your post
+            <strong class="title post-title">My first tournament today!</strong>
+            <span class="new-post-mark"></span>
+          </p>
+          <span class="time-post">1m ago</span>
+        </li>
+        <li class="notification unread">
+          <figure>
+            <img src="" alt="nome" />
+          </figure>
+          <p>
+            <strong class="name">Angela Gray</strong> followed you
+            <span class="new-post-mark"></span>
+          </p>
+          <span class="time-post">5m ago</span>
+        </li>
+        <li class="notification unread">
+          <figure>
+            <img src="" alt="nome" />
+          </figure>
+          <p>
+            <strong class="name">Jacob Thompson</strong> has joined your group
+            <strong class="title group-title">Chess Club</strong>
+            <span class="new-post-mark"></span>
+          </p>
+          <span class="time-post">1 day ago</span>
+        </li>
+        <li class="notification">
+          <figure>
+            <img src="" alt="nome" />
+          </figure>
+          <p>
+            <strong class="name">Rizky Hasanuddin</strong> sent you a private
+            message
+          </p>
+          <span class="time-post">5 days ago</span>
+          <div class="message">
+            Hello, thanks for setting up the Chess Club. I've been a member for
+            a few weeks now and I'm already having lots of fun and improving my
+            game.
+          </div>
+        </li>
+        <li class="notification">
+          <figure>
+            <img src="" alt="nome" />
+          </figure>
+          <p>
+            <strong class="name">Kimberly Smith</strong> commented on your
+            picture
+            <figure class="post-img"><img src="" alt="" /></figure>
+          </p>
+          <span class="time-post">1 week ago</span>
+        </li>
+        <li class="notification">
+          <figure>
+            <img src="" alt="nome" />
+          </figure>
+          <p>
+            <strong class="name">Nathan Peterson</strong> reacted to your recent
+            post
+            <strong class="title post-title"
+              >5 end-game strategies to increase your win rate</strong
+            >
+            <span class="new-post-mark"></span>
+          </p>
+          <span class="time-post">2 weeks ago</span>
+        </li>
+        <li class="notification">
+          <figure>
+            <img src="" alt="nome" />
+          </figure>
+          <p>
+            <strong class="name">Anna Kim</strong> left the group
+            <strong class="title group-title">Chess Club</strong>
+          </p>
+          <span class="time-post">2 weeks ago</span>
+        </li>
+      </ul>
+    </div>
 
-  Mark Webber reacted to your recent post My first tournament today!
-  1m ago
+    Notifications 3 Mark all as read Mark Webber reacted to your recent post My
+    first tournament today! 1m ago Angela Gray followed you 5m ago Jacob
+    Thompson has joined your group Chess Club 1 day ago Rizky Hasanuddin sent
+    you a private message 5 days ago Hello, thanks for setting up the Chess
+    Club. I've been a member for a few weeks now and I'm already having lots of
+    fun and improving my game. Kimberly Smith commented on your picture 1 week
+    ago Nathan Peterson reacted to your recent post 5 end-game strategies to
+    increase your win rate 2 weeks ago Anna Kim left the group Chess Club 2
+    weeks ago
 
-  Angela Gray followed you
-  5m ago
-
-  Jacob Thompson has joined your group Chess Club
-  1 day ago
-
-  Rizky Hasanuddin sent you a private message
-  5 days ago
-  Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
-  I'm already having lots of fun and improving my game.
-
-  Kimberly Smith commented on your picture
-  1 week ago
-
-  Nathan Peterson reacted to your recent post 5 end-game strategies to increase your win rate
-  2 weeks ago
-
-  Anna Kim left the group Chess Club
-  2 weeks ago
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/Melksedeque" target="_blank">Melksedeque Silva</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/Melksedeque" target="_blank"
+        >Melksedeque Silva</a
+      >.
+    </div>
+  </body>
 </html>
