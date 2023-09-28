@@ -48,11 +48,13 @@ ul.notifications-list {
             height: auto;
             max-width: 45px;
         }
+        .user-avatar {
+            margin-right: 15px;
+        }
         .notification-message {
             align-items: center;
             color: $dark_grayish_blue;
-            flex: 0 1 85%;
-            margin: 0 0 0 15px;
+            flex: 0 1 auto;
             .notification-text {
                 margin: 0;
                 .name {
@@ -77,6 +79,10 @@ ul.notifications-list {
                     display: block;
                 }
             }
+        }
+        .post-img {
+            justify-self: end;
+            margin-left: 15px;
         }
         .message {
             border-radius: 5px;
