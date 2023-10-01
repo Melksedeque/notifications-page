@@ -1,20 +1,19 @@
 const btnReadAll = document.querySelector('[data-button="readAll"]')
 const notifications = document.querySelectorAll('li.notification')
-const unreadNotifications = document.querySelectorAll('li.notification.unread')
 const notificationNumber = document.querySelector('.unread-qnt')
+const mark = document.querySelectorAll('.new-post-mark')
 
 newNotificationsQnt()
 
 btnReadAll.addEventListener('click', () => {
     notifications.forEach(notification => {
-        const mark = document.querySelector('.new-post-mark')
-        mark.parentElement.removeChild(mark)
         notification.classList.remove('unread')
     })
+    // mark.style.display = "none"
     newNotificationsQnt()
 })
 
-
 function newNotificationsQnt() {
+    const unreadNotifications = document.querySelectorAll('li.notification.unread')
     notificationNumber.innerText = unreadNotifications.length
 }
