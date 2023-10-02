@@ -1,0 +1,21 @@
+@media (max-width: 680px) {
+    body {
+        font-size: 14px;
+    }
+    div.container {
+        border-radius: 0;
+        margin: 0;
+        width: auto
+    }
+    ul.notifications-list {
+        li.notification {
+            padding: 10px 15px;
+            .user-avatar, .post-img{
+                flex: 0 1 0%;
+            }
+            .notification-message {
+                flex: 1 1 0%;
+            }
+        }
+    }
+}
