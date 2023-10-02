@@ -45,14 +45,14 @@ ul.notifications-list {
         margin: 5px 0;
         padding: 10px 20px;
         .user-avatar, .post-img{
-            flex: 1 1 auto;
+            flex: 1;
             height: auto;
             max-width: 45px;
         }
         .notification-message {
             align-items: center;
             color: $dark_grayish_blue;
-            flex: 1 1 auto;
+            flex: 1;
             max-width: 89.8%;
             .notification-text {
                 margin: 0;
