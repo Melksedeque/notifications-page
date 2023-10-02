@@ -62,11 +62,19 @@ ul.notifications-list {
                     color: $very_dark_blue;
                     cursor: pointer;
                     margin-right: 5px;
+                    transition: all .25s ease;
+                    &:hover {
+                        color: $blue;
+                    }
                 }
                 .title {
-                    color: $blue;
+                    color: $grayish_blue;
                     cursor: pointer;
                     margin-left: 5px;
+                    transition: all .25s ease;
+                    &:hover {
+                        color: $blue;
+                    }
                 }
                 .new-post-mark {
                     background: $red;
