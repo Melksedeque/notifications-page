@@ -72,6 +72,9 @@ ul.notifications-list {
                     cursor: pointer;
                     margin-left: 5px;
                     transition: all .25s ease;
+                    &.group-title {
+                        color: $blue;
+                    }
                     &:hover {
                         color: $blue;
                     }
@@ -90,6 +93,7 @@ ul.notifications-list {
             }
         }
         .post-img {
+            cursor: pointer;
             margin-left: 15px;
         }
         .message {
