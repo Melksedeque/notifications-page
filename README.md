@@ -23,7 +23,7 @@ All the necessary assets for this project are located in the `/assets` folder. T
 
 I followed a mobile-first workflow to create this responsive design. My process included:
 
-1. Initiating the project as a public repository on [GitHub](https://github.com/) for easier collaboration and sharing.
+1. Initiating the project as a public repository on [GitHub](https://github.com/) for easier collaboration and sharing. [My repository](https://github.com/Melksedeque/notifications-page)
 2. Configuring my repository to publish my code to a web address, allowing me to easily share my project with others.
 3. Carefully studying the design to plan how I would approach the project. This planning phase was essential for creating reusable CSS classes.
 4. Structuring the content with HTML before adding any styles to ensure well-structured content.
@@ -33,6 +33,8 @@ I followed a mobile-first workflow to create this responsive design. My process 
 ## Deploying Your Project
 
 For hosting this project, I used [GitHub Pages](https://pages.github.com/), a reliable and free hosting solution. This allowed me to easily share my live site URL.
+
+Live site: [Notifications Page](https://melksedeque.github.io/notifications-page/)
 
 ## Sharing Your Solution
 
