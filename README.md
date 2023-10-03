@@ -41,16 +41,24 @@ Live site: [Notifications Page](https://melksedeque.github.io/notifications-page
 I shared my solution through various channels to receive feedback and showcase my work:
 
 1. I posted my solution in the **#finished-projects** channel of the [Frontend Mentor Slack community](https://www.frontendmentor.io/slack).
-2. I tweeted my solution to [@frontendmentor](https://twitter.com/frontendmentor), mentioning the repository and live URLs in the tweet.
-3. I shared my solution on LinkedIn and other social media platforms.
+2. I tweeted my solution to [@SouzaMelk](https://twitter.com/SouzaMelk), mentioning the repository and live URLs in the tweet.
+3. I shared my solution on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7114955571769843712/) and other social media platforms.
 4. I wrote a blog post about my experience building this project, discussing my workflow, technical choices, and code.
 
-I encourage you to check out the live site to see the project in action.
+I encourage you to check out the [live site](https://melksedeque.github.io/notifications-page/) to see the project in action.
 
 ## Acknowledgments
 
 I'd like to thank Frontend Mentor for providing this challenging project. It allowed me to enhance my skills and apply my knowledge in a real-world scenario. Additionally, the supportive community on Slack provided valuable feedback and assistance throughout the process.
 
 If you have any feedback or questions about my solution, please feel free to reach out to me. I'm open to learning and improving my skills further.
+
+## Contributions
+
+Contributions are welcome! Feel free to improve the application, add features, or fix any issues you find. Just fork this repository, make your changes and submit a pull request.
+## Author
+
+- Website - [Melksedeque Silva](https://github.com/Melksedeque/)
+- Frontend Mentor - [@Melksedeque](https://www.frontendmentor.io/profile/Melksedeque)
 
 **Have fun building!** 🚀
