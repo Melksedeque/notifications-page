@@ -1,113 +1,54 @@
-# Frontend Mentor - Notifications page solution
+# Frontend Mentor - Notifications Page
 
-This is a solution to the [Notifications page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+![Design preview for the Notifications page coding challenge](./design/desktop-preview.jpg)
 
 ## Overview
 
-### The challenge
+Welcome to my solution for the Notifications Page challenge by Frontend Mentor. This project was a fantastic opportunity for me to hone my front-end development skills. I had to create a notifications page that closely resembled the provided design.
 
-Users should be able to:
+The challenge required me to build a responsive page with specific user interactions:
 
 - Distinguish between "unread" and "read" notifications
-- Select "Mark all as read" to toggle the visual state of the unread notifications and set the number of unread messages to zero
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+- Implement a "Mark all as read" button to toggle the visual state of unread notifications and reset the count of unread messages to zero
+- Ensure the layout is optimized for various screen sizes
+- Implement hover and focus states for all interactive elements on the page
 
-### Screenshot
+## Where to Find Everything
 
-![](./screenshot.jpg)
+To complete this project, I used the designs provided in the `/design` folder, which includes both mobile and desktop versions in JPG static format. This required me to use my judgment for styles like `font-size`, `padding`, and `margin`.
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+All the necessary assets for this project are located in the `/assets` folder. The images have been properly exported for the correct screen sizes and optimized. Additionally, variable and static font files for the required fonts are included. I chose to host the fonts locally for this project.
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+## Building Your Project
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+I followed a mobile-first workflow to create this responsive design. My process included:
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+1. Initiating the project as a public repository on [GitHub](https://github.com/) for easier collaboration and sharing.
+2. Configuring my repository to publish my code to a web address, allowing me to easily share my project with others.
+3. Carefully studying the design to plan how I would approach the project. This planning phase was essential for creating reusable CSS classes.
+4. Structuring the content with HTML before adding any styles to ensure well-structured content.
+5. Creating the base styles for the project, including defining the `font-family` and `font-size`.
+6. Adding styles from top to bottom, moving to the next section only after completing the previous one.
 
-### Links
+## Deploying Your Project
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+For hosting this project, I used [GitHub Pages](https://pages.github.com/), a reliable and free hosting solution. This allowed me to easily share my live site URL.
 
-## My process
+## Sharing Your Solution
 
-### Built with
+I shared my solution through various channels to receive feedback and showcase my work:
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+1. I posted my solution in the **#finished-projects** channel of the [Frontend Mentor Slack community](https://www.frontendmentor.io/slack).
+2. I tweeted my solution to [@frontendmentor](https://twitter.com/frontendmentor), mentioning the repository and live URLs in the tweet.
+3. I shared my solution on LinkedIn and other social media platforms.
+4. I wrote a blog post about my experience building this project, discussing my workflow, technical choices, and code.
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+I encourage you to check out the live site to see the project in action.
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I'd like to thank Frontend Mentor for providing this challenging project. It allowed me to enhance my skills and apply my knowledge in a real-world scenario. Additionally, the supportive community on Slack provided valuable feedback and assistance throughout the process.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+If you have any feedback or questions about my solution, please feel free to reach out to me. I'm open to learning and improving my skills further.
+
+**Have fun building!** 🚀
